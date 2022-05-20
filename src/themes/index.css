@@ -1,0 +1,626 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+
+/* Theme Color */
+:root {
+    /*--color-primary: #e9ecef;
+    --color-secondary: #f8f9fa; 
+     --color-list_color: #1724c1; */
+    --color-primary: #0a2540;
+    --color-secondary: #0c2e4e; 
+    --color-list_color :#5dade238;
+    --color-text-color:#2f40c0;
+    --color-grey: #e9ecef;
+  }
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url("../fonts/material-icon.woff2") format('woff2');
+    /* src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2'); */
+  }
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 0.75rem !important;
+    font-weight: 400;
+    line-height: 1.43;
+    font-family:
+    '-apple-system',
+    'BlinkMacSystemFont',
+    '"Segoe UI"',      
+    '"Helvetica Neue"',
+    '"Ubuntu"',
+    'Arial',
+    'sans-serif';
+    /* letter-spacing: 0.01071em; */
+    background-color:#F8F8F8 ;
+}
+.MuiPaper-elevation1,.MuiPaper-elevation2 {
+    box-shadow: unset !important;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a,a:hover,a:visited,a:focus,a:focus-within{
+    /* color: rgb(55, 61, 63); */
+      font-weight: 400;
+      font-family: inherit;
+      cursor: pointer;
+  }
+  .link-Style{
+          color: rgb(55, 61, 63);
+          font-weight: 400;
+          font-family: inherit;
+          cursor: pointer;
+  }
+  /* .MuiButton-contained{
+    background-color: var(--color-primary) !important;
+} */
+  /* .MuiButton-containedPrimary {
+    color: #4a4a4a !important;
+    background-color: #d5d5d5 !important;
+} */
+/* .MuiButton-containedPrimary {
+    color: #ffffff !important;
+    background-color: var(--color-list_color) !important;
+} */
+
+/* 
+.App,.MuiTypography-body,.MuiTypography-body1,.MuiTypography-body2,.MuiTab-root,.MuiInputBase-input,.MuiInputBase-root,a,
+code,.MuiTypography-root,.MuiTypography-displayBlock,.apexcharts-text tspan,.MuiFormLabel-root,.MuiTableCell-root,.MuiAvatar-root,.MuiButton-root {   
+    font-size: 0.75rem !important;     
+    font-family:  'Varela Round', sans-serif !important; 
+    letter-spacing: 0.05em !important;
+  } */
+
+  /* .MuiButton-containedPrimary {
+    color: #4a4a4a;
+    background-color: #e9ecef;
+} */
+  @media(max-width:959px){
+    .makeStyles-content-2 {       
+        margin-top: 48px;
+    }
+  }
+  
+.center{
+    text-align: center;
+    width: 100%;
+}
+.card-header-label{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+.MuiListItem-button:active .MuiTypography-displayBlock,.MuiListItem-button:focus .MuiTypography-displayBlock{
+    font-weight: 500;
+}
+
+.makeStyles-link-43:focus {
+    background-color: #72727242 !important;
+}
+.card-container .MuiPaper-elevation1{
+    box-shadow: none !important;
+}
+.project-page .card-container .MuiPaper-elevation1{
+    border-bottom: unset;
+}
+.danger {
+    color: #f64e60!important;
+  }
+/* Avatar color code */
+
+.a,.A,#a,#A{
+    background-color: #1B4F72 !important;
+}
+
+.b,.B,#b,#B{
+    background-color: #512E5F !important;
+}
+.c,.C,#c,#C{
+    background-color: #7E5109 !important;
+}
+.d,.D,#d,#D{
+    background-color: #145A32 !important;
+}
+.e,#e,.E,#E{
+    background-color: #3498DB !important;
+}
+.f,#f,.F,#F{
+    background-color: #873600 !important;
+}
+.g,#g,.G,#G{
+    background-color: #F1C40F !important;
+}
+.h,#h,.H,#H{
+    background-color: #17202A !important;
+}
+.i,#i,.I,#I{
+    background-color: #1B4F72 !important;
+}
+.j,#j,.J,#J{    
+    background-color: #AF7AC5 !important;
+}
+.k,#k,.K,#K{
+    background-color: #DC7633 !important;
+}
+.l,#l,.L,#L{
+    background-color: #5F6A6A !important;
+}
+.m,#m,.M,#M{
+    background-color: #78281F !important;
+}
+.n,#n,.N,#N{
+    background-color: #454545 !important;
+}
+.o,#o,.O,#O{
+    background-color: #52BE80 !important;
+}
+.p,#p,.P,#P{
+    background-color: #BB8FCE !important;
+}
+.q,#q,.Q,#Q{
+    background-color: #C0392B !important;
+}
+.r,#r,.R,#R{
+    background-color: #2C3E50 !important;
+}
+.s,#s,.S,#S{
+    background-color: #3f51b5 !important;
+}
+.t,#t,.T,#T{
+    background-color: #EC7063 !important;
+}
+.u,#u,.U,#U{
+    background-color: #27AE60 !important;
+}
+.v,#v,.V,#V{
+    background-color: #4D5656 !important;
+}
+.w,#w,.W,#W{
+    background-color: #2471A3 !important;
+}
+.x,#x,.X,#X{
+    background-color: #884EA0 !important;
+}
+.y,#y,.Y,#Y{
+    background-color: #571845 !important;
+}
+.z,#z,.Z,#Z{
+    background-color: #1d8b91 !important;
+}
+.MuiDrawer-paperAnchorDockedLeft .MuiListItemIcon-root .makeStyles-dotBase {
+    background-color: unset !important;   
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #a8a8a8;
+    border-bottom: 5px solid transparent;
+}
+.MuiButton-root{
+    text-transform: capitalize !important;
+}
+.right{
+    float: right;
+}
+.f-right{
+    float: right;
+}
+
+.MuiSelect-select:focus,.MuiSelect-select:visited{
+    padding-left: 10px !important;
+}
+.text-center{
+    text-align: center;
+}
+.apexcharts-legend-series,.apexcharts-text,.apexcharts-text tspan{    
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 97px; */
+    max-width: 97px;
+    padding: 2px 0px;
+}
+@media(min-width:800px){
+    /* .scroll-container {
+        height: calc(100vh - 130px);
+        overflow-y: auto;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+ } */
+        .scroll-container {            
+            height: calc(100vh - 185px);
+            overflow-y: auto;
+            scrollbar-color: #1976d22b #fff;
+            scrollbar-width: thin;
+        }
+        .scroll-container-searchFalse {
+            height: calc(100vh - 130px);
+            overflow-y: auto;
+            scrollbar-color: #1976d22b #fff;
+            scrollbar-width: thin;
+        }
+        
+    .team-scroll-container {
+        height: calc(100vh - 225px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+
+    .members-list {
+        height: calc(100vh - 170px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .project-members-list{
+        height: calc(100vh - 410px) ;
+        overflow-y: scroll;
+    }
+    .new-members-list {
+        max-height: calc(100vh - 430px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;       
+    } 
+    .no-description-members-list{
+        max-height: calc(100vh - 275px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    
+}
+@media(max-width:799px){
+    /* .scroll-container {
+        height: calc(100vh - 150px);
+        overflow-y: auto;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+ } */
+ .scroll-container {
+    height: calc(100vh - 190px);
+    overflow-y: auto;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+.scroll-container-searchFalse {
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+    .team-scroll-container {
+        height: calc(100vh - 205px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+
+    .members-list {
+        height: calc(100vh - 325px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .new-members-list {
+        max-height: calc(100vh - 430px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;       
+    } 
+    .no-description-members-list{
+        max-height: calc(100vh - 210px);
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;       
+    } 
+     
+}
+
+.h-445 {
+    height: calc(100vh - 30px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+.h-345 {
+    height: calc(90vh - 26px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+.default-content-scroll{
+    height: calc(100vh - 30px);
+    overflow-y: auto;   
+    overflow-x: hidden;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+.billing-history-page{
+    max-height: calc(100vh - 30px);
+    overflow-y: auto;   
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+
+.desc-scroll {
+    height: calc(100vh - 265px);
+    overflow-y: scroll;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+/* .timereports-info{
+    height: calc(100vh - 110px);
+    overflow-y: auto;    
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+    position: relative;
+    padding: 15px;
+} */
+.reports-top-filter{
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 5px;
+}
+.h-90{
+    height: 95vh;
+    overflow-y: auto;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+    background-color: #FFF;
+  }
+  
+  *::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #FFF;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1976d22b !important;
+  }
+
+  *{
+        scrollbar-color: #1976d22b #fff !important; 
+        scrollbar-width: thin !important; 
+    }
+
+.apexcharts-canvas ::-webkit-scrollbar-thumb {
+    background-color: #1976d22b !important;
+}
+.nested-list-subheader{
+    max-height: calc(100vh - 440px);
+    overflow-y: auto;
+}
+.integration-content {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+.cancel-info-list{
+    max-height: 300px;
+    overflow: auto;
+}
+.link-active{
+    color: #00ccb3 !important;
+    font-weight: bold;
+}
+.link-active .MuiListItemIcon-root{
+     color: #00ccb3 !important
+}
+.text-end{
+    text-align: end;
+}
+.hi-cubes{
+    content: "\f120";
+}
+/* .MuiInputLabel-formControl {
+    top: 4px !important;
+} */
+.pt-20{
+    padding-top: 20px;
+}
+.MuiGrid-grid-xs-3 .MuiCard-root {
+    overflow: unset;
+}
+.MuiInputLabel-outlined {
+    top: 2px;
+}
+.shadow-none{
+    box-shadow: none !important;
+}
+.MuiTabs-indicator{
+    /* background-color: var(--color-primary) !important; */
+    margin: 0px 5px;
+}
+.MuiTabs-flexContainer {
+    /* border-bottom: 1px solid #f0f0f0; */
+}
+.alert{
+    color: red;
+}
+.danger-outlined{
+    border: 1px solid #ff2626 !important;
+    color:#ff2626 !important;
+}
+.danger{
+    background-color: red !important;
+    color: #fff !important;
+}
+.success-btn-outlined{
+    border: 1px solid #3CD4A0 !important;
+    color:#3CD4A0 !important;
+}
+.success-btn{
+    background-color:#3CD4A0 !important;
+    color: #fff !important;
+}
+.MuiIconButton-root:hover{
+    background-color: unset !important;
+}
+.MuiAppBar-colorTransparent{
+    box-shadow: unset !important;
+}
+.align-center{
+    align-items: center;
+}
+.MuiButton-contained{
+box-shadow: unset !important;
+}
+.custom-loader{
+    width: 15px !important;
+    height: 15px !important;
+    /* padding-left: 8px; */
+    position: relative;
+    left: 8px;
+  }
+
+  .workspace-button {
+    padding-top: 17px !important;
+    text-align:center !important;
+  }
+
+  .fc-h-event .fc-event-main{
+      color: inherit;
+  }
+  .fc-list-event-graphic{
+      display: none;
+  }
+  .fc-day-today .fc-daygrid-day-number{
+      background-color: turquoise;
+  }
+  @media (max-width: 959px){
+    .mt-50{
+        margin-top: 50px;
+    }
+  }
+ 
+.padding-20{
+    padding: 20px;
+}
+.padding-15{
+    padding: 15px;
+}
+.project-custom-landing-css{
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+} 
+.fw-600{
+    font-weight: 600;
+}
+.download-icon{
+    color:#fff;
+    font-size: 30px;
+}
+.content-center{
+    justify-content: center;
+}
+.position-bottom{
+    position: absolute;
+    bottom: 30px;
+}
+.flex-menu span{
+    display: flex !important;
+    align-items: center;
+}
+.premium svg{
+    color: #EB7D16 !important;
+    margin-left: 3px;
+    position: relative;
+    top: 3px;
+}
+.email-client-basic-info::-webkit-scrollbar, .details-project-basic-info::-webkit-scrollbar {
+    height: 3px !important;
+  }
+  .min-height-100vh{
+    min-height: 100vh;
+  }
+  .help-support-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .help_info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .pright-3{
+      padding-right: 3px;
+  }
+  .pl-3{
+      padding-left: 3px;
+  }
+  /* .MuiFormHelperText-root {
+    color: white !important;
+    background-color: #FB9626;
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+    padding: 5px;
+    white-space: nowrap;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center !important;
+    bottom: 100%;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+} */
+/* .MuiFormHelperText-root::after{
+    border-color: #fb9626 transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    margin-left: -10px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: '';
+    border-style: solid;
+    border-width: 8px 10px 0;
+    z-index: 3;
+} */
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .open-trial .MuiDrawer-paper{
+    top:unset;
+  }
+  .open-trial .h-100 .right .sidebar-menu-list {
+    height: calc(100vh - 75px);
+  }
+  .open-trial .h-100 .left nav {
+    height: 91%;
+  }

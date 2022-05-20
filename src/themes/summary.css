@@ -1,0 +1,334 @@
+.MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(14px, 20px) scale(1);
+    pointer-events: none;
+    font-size: 11px !important;
+}
+.MuiAppBar-colorDefault {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #ffffff !important;
+}
+.summary-tab .MuiAppBar-colorPrimary {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #ffffff !important;
+}
+.summary-tab{
+    box-shadow: none !important;
+}
+.summary-tab .MuiTab-root{
+    text-transform: capitalize !important;
+    padding: 0px 12px !important;    
+    min-height: 30px !important;
+}
+.summary-tab .PrivateTabIndicator-colorSecondary-10 {
+    background-color: #0c0c0c12;
+}
+.project-summary .Title-root-69{
+    font-size: 16px;
+    text-align: left;
+}
+.project-summary .PrivateTabIndicator-colorSecondary-63 {
+    background-color: #0c0c0c12 !important;
+    display: none;
+}
+.project-summary .MuiTab-textColorInherit.Mui-selected {
+    opacity: 1;
+    /* border-bottom: 1px solid #0c0c0c12; */
+}
+
+.project-summary-sessions .apexcharts-legend-series {
+    margin: 0px 10px !important;
+}
+
+.project-summary-sessions .Title-root-69{
+    font-size: 16px;
+    text-align: left;
+}
+.project-summary-sessions .PrivateTabIndicator-colorSecondary-63 {
+    background-color: #0c0c0c12 !important;
+    display: none;
+}
+.project-summary-sessions .MuiTab-textColorInherit.Mui-selected {
+    opacity: 1;
+    /* border-bottom: 1px solid #0c0c0c12; */
+}
+
+.project-summary-sessions .apexcharts-legend-series {
+    margin: 0px 10px !important;
+}
+.middle{
+    margin: auto !important;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.flex .MuiAutocomplete-root{
+    padding: 10px 10px;
+}
+ul#menu li {
+    display:inline-block;
+    padding: 0px 10px;
+  }
+  ul#menu li a{
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  ul#menu li a:hover{
+    color: #4a4a4a;
+    text-decoration: underline;
+    padding-bottom: 10px;
+  }
+  #menu .makeStyles-textField-59 {
+    width: 150px !important;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.project-summary .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.project-summary .MuiFormControl-root{
+width: auto !important;
+}
+/* .project-summary .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    padding: 3.5px 4px;
+} */
+/* .project-summary .MuiInputLabel-outlined {    
+    transform: translate(14px, 15px) scale(1);
+} */
+.project-summary .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+    min-width: 130px;
+}
+.project-summary .MuiAppBar-colorPrimary{
+    background-color: unset !important;
+    color: #4A4A4A !important;
+    box-shadow: unset !important;
+}
+.project-summary .MuiTab-root{
+    width: 50% !important;
+    background-color: #F0F0F0;
+    max-width: 100%;
+    color: #737373;
+    letter-spacing: 1px;
+    border: 1px solid #7373735e;    
+}
+.project-summary .MuiTabs-flexContainer {
+    display: flex;
+    border-bottom: 1px solid #EAEAEA;
+}
+.project-summary .MuiTab-textColorInherit.Mui-selected {
+    opacity: 1;
+    background-color: #fff;   
+    color: #4f4f4f;
+    font-weight: 600;
+    /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+    letter-spacing: 1px;
+    /* border-bottom: 3px solid var(--color-primary); */
+}
+
+/* .project-summary .MuiTabs-indicator {
+    background-color: unset !important;
+} */
+.project-summary .MuiBox-root{
+    padding: unset !important;
+}
+
+
+.project-summary-sessions .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.project-summary-sessions .MuiFormControl-root{
+width: auto !important;
+}
+/* .project-summary-sessions .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    padding: 3.5px 4px;
+} */
+/* .project-summary-sessions .MuiInputLabel-outlined {    
+    transform: translate(14px, 15px) scale(1);
+} */
+.project-summary-sessions .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+    min-width: 130px;
+    cursor:pointer !important;
+}
+.project-summary-sessions .MuiAppBar-colorPrimary{
+    background-color: unset !important;
+    color: #4A4A4A !important;
+    box-shadow: unset !important;
+}
+/* .project-summary-sessions .MuiTab-root{
+    width: 33.33% !important;
+    background-color: #F0F0F0;
+    max-width: 100%;
+    color: #737373;
+    letter-spacing: 1px;
+    border: 1px solid #7373735e;    
+} */
+.project-summary-sessions .MuiTabs-flexContainer {
+    display: flex;
+    border-bottom: 1px solid #EAEAEA;
+}
+.MuiTab-textColorInherit.Mui-selected {
+   border-color: 1px solid var(--color-list_color);
+} 
+
+.project-summary-sessions .MuiBox-root{
+    padding: unset !important;
+}
+.Tabs-blk{
+    margin-top: 15px;
+}
+.time-session{
+    margin: auto !important;
+}
+.time-session .MuiPaper-outlined {   
+    border: 2px solid var(--color-primary);  
+}
+.time-session .title-blk {
+    color: var(--color-primary) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    opacity: 50%;
+}
+.mt--15{
+    margin-top: -10px !important;
+}
+.apexcharts-toolbar{
+    display: none !important;
+}
+.m-15{
+    margin: 15px;
+}
+.project-summary .MuiTableCell-head{
+    font-weight: 600 !important;
+}
+.project-summary-sessions .MuiTableCell-head{
+    font-weight: 600 !important;
+}
+.ch-300{
+    height: 215px;
+    overflow-y: scroll;
+}
+.MuiPickersDateRangePickerInput-root {
+     padding: 15px;
+}
+.text-right .makeStyles-root-49{
+    display: inline-block;
+}
+.project-summary .MuiPickersDateRangePickerInput-root{
+    margin: unset !important;
+    padding: 8px;
+    padding-top: 0px;
+}
+.project-summary .MuiPickersDateRangePickerInput-root .MuiOutlinedInput-input {
+    padding: 13px 15px !important;
+}
+
+.project-summary .MuiPickersDateRangePickerInput-root .MuiFormHelperText-contained {   
+    display: none;
+}
+.date-dropdown .MuiAutocomplete-inputRoot {
+    padding-right: 0px !important;
+}
+.project-summary .MuiPickersDateRangePickerInput-root .MuiOutlinedInput-root {
+    width: 125px;
+}
+
+
+.project-summary-sessions .MuiPickersDateRangePickerInput-root{
+    margin: unset !important;
+    padding: 8px;
+    padding-top: 0px;
+}
+.project-summary-sessions .MuiPickersDateRangePickerInput-root .MuiOutlinedInput-input {
+    padding: 13px 15px !important;
+}
+
+.project-summary-sessions .MuiPickersDateRangePickerInput-root .MuiFormHelperText-contained {   
+    display: none;
+}
+
+.project-summary-sessions .MuiPickersDateRangePickerInput-root .MuiOutlinedInput-root {
+    width: 125px;
+}
+@media(max-width:1200px){
+    .w-100{
+        width:100% !important;
+        flex-grow: 0 !important;
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }   
+}
+@media(min-width:1201px){
+    .w-100 .menulink-blk{
+        display: flex;
+        position: absolute;
+        right: 15px;
+    }
+}
+.or-blk{
+    font-size: 12px;
+    padding: 0px 10px;
+    top: 12px;
+    position: relative;
+}
+.MuiAutocomplete-paper {    
+    font-size: 12px !important;
+}
+.no-data-available{
+    text-align: center !important;
+      font-weight: 600 !important;
+      font-size: 15px !important;
+      padding: 20px !important;
+  }
+  .nodata-text{
+    color: #A8A5B5 !important;
+  }
+  .rdrInputRanges{
+      display: none !important;
+  }
+  .rdrStaticRange{
+      font-family: inherit;
+  }
+  .text-right .MuiButton-root,.text-right .MuiButton-root:hover{
+    margin: 10px;  
+    float: right !important;    
+    padding: 8px 15px;
+    color: #4A4A4A;
+    cursor: text;   
+    display: inline-flex;
+    position: relative;
+    font-size: 0.8571428571428571rem;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: wrap;    
+    border-radius: 4px;
+  }
+  .text-right .MuiButton-label{
+      color: #4a4a4a !important;
+      font-weight: 400;
+      width: 100%;
+  }
+  .cal-ico{
+    text-align: end;
+    margin-left: 20px;    
+    fill: #0000008a !important;
+    width: 16px !important;
+    height: 16px !important;
+  }
+  .session-page .MuiGrid-spacing-xs-1{
+      margin: 0px;
+  }
+  .padding-popupheading{
+      padding: 10px !important;
+  }

@@ -1,0 +1,372 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+
+/* Theme Color */
+:root {
+    --color-primary: #e9ecef;
+    --color-secondary: #f8f9fa; 
+    --color-list_color: #5dade2;   
+  }
+
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 0.75rem !important;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    background-color:#F8F8F8 ;
+}
+.MuiPaper-elevation1 {
+    box-shadow: unset !important;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a,a:hover,a:visited,a:focus,a:focus-within,.link-Style{
+    color: rgb(55, 61, 63);
+      font-weight: 400;
+      font-family: inherit;
+  }
+  .MuiButton-containedPrimary {
+    color: #4a4a4a !important;
+    background-color: #d5d5d5 !important;
+}
+/* 
+.App,.MuiTypography-body,.MuiTypography-body1,.MuiTypography-body2,.MuiTab-root,.MuiInputBase-input,.MuiInputBase-root,a,
+code,.MuiTypography-root,.MuiTypography-displayBlock,.apexcharts-text tspan,.MuiFormLabel-root,.MuiTableCell-root,.MuiAvatar-root,.MuiButton-root {   
+    font-size: 0.75rem !important;     
+    font-family:  'Varela Round', sans-serif !important; 
+    letter-spacing: 0.05em !important;
+  } */
+
+  .MuiButton-containedPrimary {
+    color: #4a4a4a;
+    background-color: #e9ecef;
+}
+  @media(max-width:959px){
+    .makeStyles-content-2 {       
+        margin-top: 48px;
+    }
+  }
+  
+.center{
+    text-align: center;
+    width: 100%;
+}
+.card-header-label{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+.MuiListItem-button:active .MuiTypography-displayBlock,.MuiListItem-button:focus .MuiTypography-displayBlock{
+    font-weight: 500;
+}
+/* .scroll-container{
+    height: 340px;
+    overflow-y: scroll;
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+} */
+
+.scroll-container::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.scroll-container::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+  background-color: #FFF;
+}
+
+.scroll-container::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #1976d22b;
+}
+
+.team-scroll-container::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.team-scroll-container::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+  background-color: #FFF;
+}
+
+.team-scroll-container::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #1976d22b;
+}
+
+.desc-scroll::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.desc-scroll::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+  background-color: #FFF;
+}
+
+.desc-scroll::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #1976d22b;
+}
+.team-info-scroll::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.team-info-scroll::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+  background-color: #FFF;
+}
+
+.team-info-scroll::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #1976d22b;
+}
+
+/* .scroll-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #dbdbdb61;
+} */
+
+@media(max-width:1329px){
+    .h-445{
+        /* height: 463px; */
+        height: 90vh;
+        overflow-y: hidden;
+        scrollbar-color: #1976d22b #fff;
+       scrollbar-width: thin;
+    }
+    .scroll-container{
+        /* height: 340px; */
+        height: 70vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .members-list{    
+        height: 175px;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .project-scroll-container{
+        height: 285px;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .team-scroll-container{
+        /* height: 270px; */
+        height: 62vh;        
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .task-info{
+        height: 420px;
+       overflow-y: scroll;
+       scrollbar-color: #1976d22b #fff;
+       scrollbar-width: thin;
+    }
+    .team-info-scroll{
+        /* height: 325px; */
+        height: 65vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .desc-scroll{
+        height: 275px;
+        overflow-y: scroll;
+    }
+}
+@media(min-width:1330px){
+    .h-445 {
+        height: 91vh;
+        overflow-y: hidden;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .scroll-container {
+        height: 79vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .members-list {
+        height: 65vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .team-scroll-container{
+        height: 70vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .team-info-scroll{
+        height: 74vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    .desc-scroll{
+        height: 70vh;
+        overflow-y: scroll;
+        scrollbar-color: #1976d22b #fff;
+        scrollbar-width: thin;
+    }
+    
+}
+
+.makeStyles-link-43:focus {
+    background-color: #72727242 !important;
+}
+.card-container .MuiPaper-elevation1{
+    box-shadow: none !important;
+}
+.project-page .card-container .MuiPaper-elevation1{
+    border-bottom: unset;
+}
+/* .MuiListItem-button:hover {
+    background-color: aliceblue !important;
+    color: #000 !important;    
+} */
+
+/* Avatar color code */
+
+.a,.A,#a,#A{
+    background-color: #1B4F72 !important;
+}
+
+.b,.B,#b,#B{
+    background-color: #512E5F !important;
+}
+.c,.C,#c,#C{
+    background-color: #7E5109 !important;
+}
+.d,.D,#d,#D{
+    background-color: #145A32 !important;
+}
+.e,#e,.E,#E{
+    background-color: #3498DB !important;
+}
+.f,#f,.F,#F{
+    background-color: #873600 !important;
+}
+.g,#g,.G,#G{
+    background-color: #F1C40F !important;
+}
+.h,#h,.H,#H{
+    background-color: #17202A !important;
+}
+.i,#i,.I,#I{
+    background-color: #1B4F72 !important;
+}
+.j,#j,.J,#J{    
+    background-color: #AF7AC5 !important;
+}
+.k,#k,.K,#K{
+    background-color: #DC7633 !important;
+}
+.l,#l,.L,#L{
+    background-color: #5F6A6A !important;
+}
+.m,#m,.M,#M{
+    background-color: #78281F !important;
+}
+.n,#n,.N,#N{
+    background-color: #454545 !important;
+}
+.o,#o,.O,#O{
+    background-color: #52BE80 !important;
+}
+.p,#p,.P,#P{
+    background-color: #BB8FCE !important;
+}
+.q,#q,.Q,#Q{
+    background-color: #C0392B !important;
+}
+.r,#r,.R,#R{
+    background-color: #2C3E50 !important;
+}
+.s,#s,.S,#S{
+    background-color: #3f51b5 !important;
+}
+.t,#t,.T,#T{
+    background-color: #EC7063 !important;
+}
+.u,#u,.U,#U{
+    background-color: #27AE60 !important;
+}
+.v,#v,.V,#V{
+    background-color: #4D5656 !important;
+}
+.w,#w,.W,#W{
+    background-color: #2471A3 !important;
+}
+.x,#x,.X,#X{
+    background-color: #884EA0 !important;
+}
+.y,#y,.Y,#Y{
+    background-color: #571845 !important;
+}
+.z,#z,.Z,#Z{
+    background-color: #1d8b91 !important;
+}
+.MuiDrawer-paperAnchorDockedLeft .MuiListItemIcon-root .makeStyles-dotBase {
+    background-color: unset !important;   
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #a8a8a8;
+    border-bottom: 5px solid transparent;
+}
+.MuiButton-root{
+    text-transform: capitalize !important;
+}
+.right{
+    float: right;
+}
+.menu-btn:hover {
+    background-color:unset !important;
+    /* color: #272d2b !important; */
+    color:#ffffff !important;
+}
+.MuiSelect-select:focus,.MuiSelect-select:visited{
+    padding-left: 10px !important;
+}
+.btn-icon-color{
+    color:#ebebeb
+}

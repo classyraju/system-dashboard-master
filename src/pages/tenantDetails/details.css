@@ -1,0 +1,74 @@
+.loader-gif{
+    position: relative;
+    top: 50%;
+    margin: auto;
+}
+.subscription-loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.wd-100{
+    width: 100%;
+  }
+  .billing-history-page .left{
+    width: 300px;
+  }
+  .mb-20{
+    margin-bottom: 20px;
+  }
+  .billing-history-page h2{
+    font-weight: 500;
+    padding-bottom: 14px;
+  }
+  .billing-history-page p{
+    padding: 10px 0px;
+    margin-bottom: 0px;
+  }
+  .billing-history-page{
+    max-height: calc(100vh - 26px);
+    overflow-y: auto;   
+    scrollbar-color: #1976d22b #fff;
+    scrollbar-width: thin;
+}
+.text-left{
+  text-align: left;
+}
+.chip-unpaid span{
+  color: #ffffff;
+  font-weight: 500;
+
+}
+.chip-unpaid{
+  padding-left: 4px;
+}
+
+.chip-unpaid .MuiChip-outlined{
+  border: 1px solid #909A94;
+  background-color: #909A94;
+}
+.chip-active{
+  padding-left: 4px;
+}
+.chip-active span{
+  color: #ffffff;
+  font-weight: 500;
+}
+.chip-inactive .MuiChip-outlined{
+  border: 1px solid rgb(198 6 46 / 50%);
+  background-color: red;
+}
+.chip-active .MuiChip-outlined{
+  border: 1px solid #34c950;
+  background-color: #34c950;
+}
+.status-chip{
+  height: 22px !important;
+  font-weight: lighter;
+}
+.color-green{
+  color: #2ACB48;
+}
+.width-profile-container{
+  width: 50%;
+}

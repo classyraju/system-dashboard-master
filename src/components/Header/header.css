@@ -1,0 +1,395 @@
+/* .MuiAppBar-colorPrimary{
+    color: #fff;
+    background-color: #1d8c92 !important;
+}  */
+
+.makeStyles-appBar-6 {
+    z-index: 1201 !important;
+}
+
+.makeStyles-headerIcon-22 {
+    color: #0000008a !important;
+    font-size: 24px !important;
+} 
+@media (min-width: 600px){
+    .MuiToolbar-regular,.makeStyles-fakeToolbar-4 {
+        min-height: 0px !important;
+        display: none;
+    }
+}
+
+.header-search .MuiInputBase-input {
+    color: #fff !important;
+    width: 80% !important;
+    padding-left: 10px;
+}
+.header-search .search-icon {
+    color: #fff !important;
+}
+.header-search{
+    border-radius: 20px !important;
+    width: 250px;
+}
+.makeStyles-profileMenuItem-26 {
+    color: #B9B9B9 !important;
+    font-size: 13px !important;
+}
+.makeStyles-profileMenuItem-26:hover {
+    color: #333 !important;
+    font-size: 13px !important;
+}
+.makeStyles-profileMenuUser-25:focus{
+    border: unset !important;
+}
+.header-menu .MuiMenuItem-root{
+    font-size: 12px !important;
+}
+.Logout .user-avatar {
+    flex: 0 0 auto;
+    margin-right: 0px;
+    padding: 0px 5px;
+    background-color: #ffffff;
+}
+.header-menu{    
+    /* top: 0px !important; */
+    left: 30px !important;
+}
+.header-menu .MuiMenu-list{
+    width: 175px;
+}
+.left{
+    float: left;
+}
+.avatar-blk{
+    float: right;    
+    display: flex; 
+    padding: 5px 0px;
+}
+.user-name{
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    float: left;
+    display: flex !important;
+}
+.mr-5{
+    margin-right: 5px;
+}
+@media (min-width: 600px){
+    .makeStyles-toolbar-40 {
+        min-height: 0px !important;
+    }
+}
+
+/* .h-100{
+    height: 100%;
+} */
+.h-100 nav{
+    background-color: unset !important;
+    margin-top: 15px;
+}
+.h-100 .left{
+    /* background: #333; */
+    background: #292b2f;
+}
+.h-100 .left nav{
+    height: 94%;
+    position: relative;
+    display: block;
+}
+
+.h-100 .left nav .Logout{
+    position: absolute;
+    bottom: 47px
+}
+
+.h-100 .right{
+    background: var(--color-primary);
+}
+@media(min-width:960px){
+    .h-100 .right{
+        width: 195px;
+    }
+}
+.h-100 .MuiListItem-button:hover{
+    background-color: unset !important;
+}
+.h-100 .MuiListItem-button:focus,.h-100 .MuiListItem-button:active{
+    color: #ffffff !important;
+    background-color: var(--color-list_color) !important;
+}
+.h-100 .MuiListItem-button:focus .MuiSvgIcon-root{
+    fill: azure !important;
+}
+
+@Media(max-width:959px){
+    .toolbar {
+        position: fixed !important;
+        background: #dfdfdf;
+        width: 100%;
+        z-index: 99;
+    }
+}
+@Media(min-width:960px){
+    .toolbar{
+        display: none !important;
+    }
+}
+.flex-blk{
+    display: flex;
+}
+/* .MuiAppBar-colorPrimary{
+    color: #fff;
+    background-color: #1d8c92 !important;
+}  */
+
+.makeStyles-appBar-6 {
+    z-index: 1201 !important;
+}
+
+.makeStyles-headerIcon-22 {
+    color: #0000008a !important;
+    font-size: 24px !important;
+} 
+ /* @media (min-width: 600px){ */
+    .MuiToolbar-regular,.makeStyles-fakeToolbar-4 {
+        min-height: 0px !important;
+        display: none;
+    }
+/* } */
+
+.header-search .MuiInputBase-input {
+    color: #fff !important;
+    width: 80% !important;
+    padding-left: 10px;
+}
+.header-search .search-icon {
+    color: #fff !important;
+}
+.header-search{
+    border-radius: 20px !important;
+    width: 250px;
+}
+.makeStyles-profileMenuItem-26 {
+    color: #B9B9B9 !important;
+    font-size: 13px !important;
+}
+.makeStyles-profileMenuItem-26:hover {
+    color: #333 !important;
+    font-size: 13px !important;
+}
+.makeStyles-profileMenuUser-25:focus{
+    border: unset !important;
+}
+.header-menu .MuiMenuItem-root{
+    font-size: 12px !important;
+}
+.Logout .user-avatar {
+    flex: 0 0 auto;
+    margin-right: 0px;
+    background-color: #ffffff;
+}
+.Logout .user-avatar .MuiAvatar-root{
+    margin: auto;
+    background-color: #ffffff;
+}
+.header-menu{    
+    /* top: 0px !important; */
+    left: 30px !important;
+}
+.header-menu .MuiMenu-list{
+    width: 190px;
+}
+.left{
+    float: left;
+}
+.avatar-blk{
+    overflow: hidden;
+    text-align: center;
+    /* padding: 5px; */
+}
+.user-name{
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+    float: left;
+    display: flex !important;
+}
+.mr-5{
+    margin-right: 5px;
+}
+@media (min-width: 600px){
+    .makeStyles-toolbar-40 {
+        min-height: 0px !important;
+    }
+}
+
+.h-100{
+    height: 100%;
+}
+.h-100 nav{
+    background-color: unset !important;
+}
+.h-100 .left{
+    /* background: var(--color-secondary);
+     */
+    background: #292b2f;
+}
+.h-100 .left nav{
+    height: 99%;
+    position: relative;
+    display: block;
+}
+.flex-blk.h-100 a,.flex-blk.h-100 .MuiListItemIcon-root,.flex-blk.h-100 li{
+    color: #fff;
+}
+.menu-btn,.menu-btn:hover,.menu-btn:focus,.menu-btn:visited {
+    /* color: #00d4ff !important; */
+    color:#ffffff !important
+}
+.h-100 .left nav .Logout{
+    position: absolute;
+    bottom: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-100 .right{
+    /* background: var(--color-primary); */
+    background: #151719;
+    position: relative;
+}
+@media(min-width:960px){
+    .h-100 .right{
+        width: 195px;
+        height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+.h-100 .right .sidebar-menu-list{
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.h-100 .MuiListItem-button:hover{
+    background-color: unset !important;
+}
+.h-100 .MuiListItem-button:focus,.h-100 .MuiListItem-button:active{
+    color: #ffffff !important;
+    background-color: var(--color-list_color) !important;
+}
+.h-100 .MuiListItem-button:focus .MuiSvgIcon-root{
+    fill: azure !important;
+}
+
+@Media(max-width:959px){
+    .toolbar {
+        position: fixed !important;
+        background: #0a2540;
+        width: 100%;
+        z-index: 99;
+    }
+}
+@Media(min-width:960px){
+    .toolbar{
+        display: none !important;
+    }
+}
+.header-menu .MuiListItem-root.Mui-disabled {
+    opacity: 1 !important;
+}
+.profile-icon-fullname{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.disabled,.disabled:hover{
+    background-color: unset !important;
+    cursor: unset;
+}
+.MuiDrawer-root .MuiDrawer-paper{
+    overflow-y: unset;
+}
+.h-100 .right::-webkit-scrollbar,.sidebar-menu-list::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+    background-color: #151719;
+}
+.logo-sec{
+    padding-top: 10px;
+    padding-left: 16px;
+}
+.logo-sec img{
+    width: 80px;
+    height: auto;
+}
+.h-100 .right::-webkit-scrollbar-thumb,.sidebar-menu-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1976d2ad !important;
+}
+
+.h-100 .right::-webkit-scrollbar-track,.sidebar-menu-list::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #151719;
+}
+.MuiMenu-paper {
+    box-shadow: 0px 3px 11px 0px #e8eafc36, 0 3px 3px -2px #b2b2b21a, 0 1px 8px 0 #9a9a9a1a;
+}
+.download-btn{
+    padding: 6px 16px;
+    font-size: 0.75rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;   
+    position: relative;
+    align-items: center;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.download-btn:hover{
+    text-decoration: none;
+}
+/* .download-icon{
+    padding: 16px;
+} */
+.sidebar-menu-list .MuiListItemIcon-root {    
+    min-width: 35px !important;
+}
+.white{
+    color: #fff;
+}
+.helpsupport_dialog {
+    background-color: #f8f8f8;
+    padding: 5px 14px;
+    min-width: 444px;
+    max-width: 444px;
+    display: block;
+    margin: auto;
+    border: 1px solid #f2ecec;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 8px 16px;
+}
+
+.contact-support-dialog-title{
+    padding: 8px 16px;
+}
+.helpsupport_dialog .MuiCardActions-root{
+    display: block;
+    margin: auto;
+}
